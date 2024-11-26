@@ -1,0 +1,21 @@
+{
+  "name": "phonebook_backend",
+  "version": "0.0.1",
+  "description": "Back end of phonebook",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"not yet\""
+  },
+  "author": "Az",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
